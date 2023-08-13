@@ -1,0 +1,192 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #E8F6EF;
+    position: relative;
+}
+
+.read-me-display{
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width:100%;
+    height:100%;
+    margin:0;
+    
+    z-index: 1;
+    display: none;
+
+}
+
+    .read-me-container{
+        background-color: white;
+        width: 50%;
+        height: 80%;
+        border-radius: 20px;
+        padding: 30px 70px;
+        position:relative;
+        margin: 10% 25%;
+    }
+
+    .read-me-container h2{
+        font-family: "Edu SA Beginner", sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .read-me-container p{
+        font-family: "Edu SA Beginner", sans-serif;
+        font-size: 24px;
+    }
+
+    .read-me-container span{
+        color: black;
+        font-size: 25px;
+        position:absolute;
+        right: 20px;
+        top:10px;
+        cursor:pointer;
+    }
+
+.navbar{
+    position: fixed;
+    top:0;
+    right:20px;
+    width:100%;
+}
+.navbar a{
+    display: block;
+    float: right;
+    text-decoration: none; 
+    text-align:center;
+    padding: 12px 18px;
+    font-family: "Quicksand";
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #4C4C6D;
+}
+
+h1{
+    font-family: "Caveat", sans-serif;
+    text-align: center;
+    font-size:60px;
+    color: #1B9C85;
+    margin-top:80px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+#journal-link{
+    font-family: "Edu SA Beginner", sans-serif;
+    text-decoration: none;
+    color: #4C4C6D;
+    font-size:40px;
+    font-weight:bold;
+}
+
+.write-journal{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+
+input{
+    width:100%;
+    padding: 10px 50px;
+    font-family: "Edu SA Beginner", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 20px 20px 0 0;
+    border:none;
+}
+input:focus{
+    outline: none;
+}
+
+textarea{
+    width:100%;
+    padding: 10px 50px;
+    font-family: "Edu SA Beginner", sans-serif;
+    font-size: 25px;
+    border-radius: 0 0 20px 20px;
+    border: none;
+
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.save-btn{
+    padding: 13px 16px;
+    border: none;
+    background-color: #FFE194;
+    border-radius: 10px;
+    font-family: "Edu SA Beginner", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    color: #4C4C6D;
+}
+
+.journal-pages{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 100px;
+}
+.page{
+    width:300px;
+    height:200px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: white;
+    position: relative;
+    margin: 10px 10px;
+
+}
+
+.page h3{
+    font-family: "Edu SA Beginner", sans-serif;
+    font-size: 28px;
+    color: #4C4C6D;
+    font-weight: bold;
+    margin-top:60px;
+}
+
+.page p{
+    font-family: "Edu SA Beginner", sans-serif;
+    font-size: 25px;
+    color: #4C4C6D;
+}
+
+.read-me, .delete{
+    position: absolute;
+    top:15px;
+    padding: 8px 10px;
+    font-family: "Caveat", sans-serif;
+    font-size: 18px;
+    background-color: #1B9C85;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.read-me{
+    right: 80px;
+}
+
+.delete{
+    right: 15px;
+}
+
+
+
